@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Sixtyfour&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Sixtyfour', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(50, 46, 46);
+    
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.players{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    margin-top: 30px;
+    text-align: center;
+    color: aqua;
+}
+p{
+    text-align: center;
+    color: aqua;
+}
+h1{
+    color: aqua;
+    text-align: center;
+}
+button{
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    font-weight: bolder;
+    color: aqua;
+    background-color: #9c0c14;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: aqua;
+    color: #9c0c14; 
+}
+@media (max-width:541px){
+    .container{
+        margin-top: 100px;
+    }
+    img{
+        width: 100px;
+    }
+    p{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    footer{
+        font-size: 10px;
+    }
+}
